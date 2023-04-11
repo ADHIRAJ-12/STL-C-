@@ -1,2 +1,2 @@
-# STL
+# STL and Resources
 

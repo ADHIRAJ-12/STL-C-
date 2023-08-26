@@ -89,6 +89,38 @@ int main() {
 
 
 
+// int kruskalMST(int n, vector<vector<int>> &edges)
+// {
+// 	// Write your code here.
+// 	vector<pair<int,pair<int,int>>>adj;
+
+//         for (auto i:edges) {
+// 			int u=i[0];
+// 			int v=i[1];
+// 			int wt=i[2];
+// 			adj.push_back({wt,{u,v}});
+// 		}
+
+// 		sort(adj.begin(),adj.end());
+// 		DisjointSet ds(n);
+// 		int ans=0;
+// 		for(auto i:adj){
+// 			int wt=i.first;
+// 			int u=i.second.first;
+// 			int v=i.second.second;
+			
+// 			if(ds.findUltParent(u)!=ds.findUltParent(v)){
+// 				ans+=wt;
+// 				ds.unionBySize(u,v);
+// 			}
+
+
+// 		}
+
+// 		return ans;
+// }
+
+
 
 //cp
  
